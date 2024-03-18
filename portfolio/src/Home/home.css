@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    margin-top: -400px; /* Subir o .home */
+    padding-left: 9%;
+    padding-right: 9%;
+    font-size: 25px;
+}
+
+h1 {
+    font-family: "Comfortaa";
+}
+
+h3 {
+    font-family: "Manjari";
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    margin-top: 20px; /* Add margin to the top */
+}
+
+.icon img {
+    width: 80px; /* Adjust the width of the icons */
+    height: 80px; /* Adjust the height of the icons */
+}
+
+.personagem {
+    display: flex;
+    margin-top: 100px; /* Descer o .personagem */
+    margin-left: auto; /* Mover o personagem para o lado direito */
+}

@@ -7,10 +7,10 @@ function Navbar (){
     return (
         <>
             <div className="navbar">
-                <p>Home</p>
-                <p>About</p>
-                <p>Projects</p>
-                <p>Contact</p>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/contact">Contatc</Link>
             </div>
             <Footer/>
         </>

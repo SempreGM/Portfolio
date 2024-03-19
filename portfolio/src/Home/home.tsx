@@ -6,10 +6,10 @@ function Home() {
     return (
         <>
                 <Navbar/>
-                <img src="personagem-removebg-preview.png" alt="personagem" className="personagem" />
+                <img src="/foto perfil.jpg" alt="personagem" className="personagem" />
             <div className="home">
                 <h1>Ola,<br/>Eu sou Bernardo Maia<br/>Front-end developer</h1>
-                <h3>Tecnologias que eu gosto ❤️</h3>
+                <h3>Tecnologias que eu gosto </h3>
                 <div className="icon">
                     <tr>
                         <td align="center">
@@ -20,9 +20,6 @@ function Home() {
                         </td>
                         <td align="center">
                             <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React icon" width="100" height="100" />
-                        </td>
-                        <td align="center">
-                            <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="Nginx icon" width="100" height="100" />
                         </td>
                     </tr>
                 </div>

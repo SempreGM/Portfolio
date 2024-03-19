@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #F5EBE0;
+    background-color: #FAF6E9;
 }
 
 .home {
@@ -11,6 +11,7 @@ body {
     padding-left: 9%;
     padding-right: 9%;
     font-size: 25px;
+    color: #52575D;
 }
 
 h1 {
@@ -19,6 +20,7 @@ h1 {
 
 h3 {
     font-family: "Manjari";
+    margin-top: 25px;
 }
 
 .icon {
@@ -36,4 +38,8 @@ h3 {
     display: flex;
     margin-top: 100px; /* Descer o .personagem */
     margin-left: auto; /* Mover o personagem para o lado direito */
+    margin-right: 200px;
+    border-radius: 2%;
+    width: 250px;
+    height: 500px;
 }

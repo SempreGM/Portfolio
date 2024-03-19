@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    height: 20px; 
+    height: 40px; 
     width: 25%;
     border-radius: 50px;
     position: absolute; 
@@ -23,8 +23,11 @@
     text-decoration: none;
 }
 
-a{
+.navbar a{
     text-decoration: none;
     color: #41444B
 }
 
+@media screen {
+    
+}

@@ -14,12 +14,12 @@ body {
     color: #52575D;
 }
 
-h1 {
-    font-family: "Comfortaa";
+.home h1 {
+    font-family: "Manjari";
 }
 
-h3 {
-    font-family: "Manjari";
+.home h3 {
+    font-family: "Comfortaa";
     margin-top: 25px;
 }
 

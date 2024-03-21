@@ -16,6 +16,7 @@ function About (){
                 <td> Desenvolvimento React - 2023</td>
                 Webdesign Front-end Fundamentos - 2024
                 <td>Faculdade de Analise e Desenvolvimendo de Sistemas - 2024</td>
+                Bootstrap 5 do básico ao avançado - 2024
             </tr>
             <h1>Linguagem</h1>
             <tr>

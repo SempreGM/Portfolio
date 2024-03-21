@@ -21,6 +21,9 @@ function Home() {
                         <td align="center">
                             <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React icon" width="100" height="100" />
                         </td>
+                        <td align="center">
+                            <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="Git icon" width="100" height="100" />
+                        </td>
                     </tr>
                 </div>
             </div>

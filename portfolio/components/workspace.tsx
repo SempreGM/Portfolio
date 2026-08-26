@@ -97,7 +97,9 @@ export function Workspace() {
   useEffect(() => {
     const savedTheme = window.localStorage.getItem("portfolio-theme");
     const preferredTheme = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
-    setTheme(savedTheme === "light" || savedTheme === "dark" ? savedTheme : preferredTheme);
+    const initialTheme = savedTheme === "light" || savedTheme === "dark" ? savedTheme : preferredTheme;
+    const frame = window.requestAnimationFrame(() => setTheme(initialTheme));
+    return () => window.cancelAnimationFrame(frame);
   }, []);
 
   useEffect(() => {
@@ -108,8 +110,8 @@ export function Workspace() {
   useEffect(() => {
     const role = "Desenvolvedor Front-End Júnior";
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      setTypedRole(role);
-      return;
+      const frame = window.requestAnimationFrame(() => setTypedRole(role));
+      return () => window.cancelAnimationFrame(frame);
     }
     let position = 0;
     const timer = window.setInterval(() => {
